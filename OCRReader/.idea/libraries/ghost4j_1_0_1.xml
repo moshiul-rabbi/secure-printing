@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ghost4j-1.0.1">
+    <CLASSES>
+      <root url="jar://D:/Development/Temporary/SourceCode/Tesseract/Tess4J/lib/ghost4j-1.0.1.jar!/" />
+      <root url="jar://D:/Development/Temporary/SourceCode/Tesseract/Tess4J/lib/jai-imageio-core-1.3.1.jar!/" />
+      <root url="jar://D:/Development/Temporary/SourceCode/Tesseract/Tess4J/lib/jna-4.1.0.jar!/" />
+      <root url="jar://D:/Development/Temporary/SourceCode/Tesseract/Tess4J/lib/junit-4.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
