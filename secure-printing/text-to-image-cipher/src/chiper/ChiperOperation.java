@@ -25,8 +25,8 @@ public class ChiperOperation {
         for(int i=0; i<text.length();i++) {
 
 //            int radius = (int)text.charAt(i);
-            int radius = gridChiper.getAbsoluteValue(text.charAt(i));
-
+            double radius = (double)gridChiper.getAbsoluteValue(text.charAt(i))/Constants.COMPRESSOR;
+            System.out.println("radius: " + radius);
             int randomStar = util.generateRandomValue((Constants.NUMBER_OF_STAR - 1), 0);
             System.out.println("random star: " + randomStar);
             if(Constants.NUMBER_OF_STAR == 0)
@@ -46,13 +46,6 @@ public class ChiperOperation {
             characterInfos.add(characterInfo);
         }
 
-        // Sorting based on Y
-        /*java.util.Arrays.sort(characterInfo, new java.util.Comparator<double[]>() {
-            public int compare(double[] a, double[] b) {
-                return (-1)*Double.compare(a[1], b[1]);
-            }
-        });
-*/
         Collections.sort(characterInfos, new Comparator<CharacterInfo>() {
             public int compare(CharacterInfo characterInfo1, CharacterInfo characterInfo2) {
                 if (characterInfo1.getY() == characterInfo2.getY())
@@ -68,10 +61,10 @@ public class ChiperOperation {
         return characterInfos;
     }
 
-    public double[] generateMinDistanceXY(int radius, int star, int[][] stars, int compressX, int compressY,
+    public double[] generateMinDistanceXY(double radius, int star, int[][] stars, int compressX, int compressY,
                                           int boundaryRight, int boundaryTop, int boundaryBottom) {
         int angleInDegree = util.generateRandomValue(Constants.MAX_ANGLE_IN_DEGREE, Constants.MIN_ANGLE_IN_DEGREE);
-        double[] xy = geometricCalculation.generateXYCompressed(stars[star][0], stars[star][1], radius, angleInDegree, compressX, compressY);
+        double[] xy = geometricCalculation.generateXY(stars[star][0], stars[star][1], radius, angleInDegree);
         for(int i=0; i<Constants.NUMBER_OF_STAR; i++) {
             if (i == star)
                 continue;
@@ -82,10 +75,10 @@ public class ChiperOperation {
             double x_whole = xy[0]+Constants.BASE_X;
             double y_whole = xy[1]+Constants.BASE_Y;
 
-            System.out.println("angle: " + angleInDegree + " distance: " + distance + " radius: " + (double)(radius/8) + " Star: " + i + " x_whole: " + x_whole
+            System.out.println("angle: " + angleInDegree + " distance: " + distance + " radius: " + radius + " Star: " + i + " x_whole: " + x_whole
                     + " boundaryRight: " + boundaryRight + " y_whole:  " + y_whole + " boundaryBottom " + boundaryBottom + " ,top " + boundaryTop);
 
-            if (distance < (double)(radius/8) || insideBlackHole || x_whole > boundaryRight ||
+            if (distance < radius || insideBlackHole || x_whole > boundaryRight ||
                     y_whole < boundaryBottom || y_whole > boundaryTop) {
                 return generateMinDistanceXY(radius, star, stars, compressX, compressY, boundaryRight, boundaryTop, boundaryBottom);
             }
@@ -183,11 +176,13 @@ public class ChiperOperation {
         double[] star = new double[2];
 
         double min = geometricCalculation.getDistance(x, y, stars[0][0], stars[0][1]);
+        System.out.println(min);
         star[0] = stars[0][0];
         star[1] = stars[0][1];
 
         for(int i=1; i<Constants.NUMBER_OF_STAR; i++) {
             double distance = geometricCalculation.getDistance(x, y, stars[i][0], stars[i][1]);
+            System.out.println("(x,y): (" + x + "," + y +") star: (" + stars[i][0] + "," + stars[i][1] + ") distance: " + distance);
             if(distance < min){
                 min = distance;
                 star[0] = stars[i][0];

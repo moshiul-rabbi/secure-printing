@@ -99,10 +99,10 @@ public class PrinterOperation {
 
                 if(renderInfo.getText().equals("o")){
                     double x = util.roundTwoDecimalPoints(renderInfo.getBaseline().getBoundingRectange().getX()-Constants.BASE_X-Constants.DAVIATION_X);
-                    double y = util.roundTwoDecimalPoints(renderInfo.getBaseline().getBoundingRectange().getY()-Constants.BASE_Y-Constants.DAVIATION_Y);
+                    double y = util.roundTwoDecimalPoints(renderInfo.getBaseline().getBoundingRectange().getY()-Constants.BASE_Y+Constants.DAVIATION_Y);
 
                     System.out.println("(x,y): ("+ util.roundTwoDecimalPoints(renderInfo.getBaseline().getBoundingRectange().getX()-Constants.BASE_X-Constants.DAVIATION_X) + ","
-                            + util.roundTwoDecimalPoints(renderInfo.getBaseline().getBoundingRectange().getY()-Constants.BASE_Y-Constants.DAVIATION_Y + 50) +")");
+                            + util.roundTwoDecimalPoints(renderInfo.getBaseline().getBoundingRectange().getY()-Constants.BASE_Y+Constants.DAVIATION_Y) +")");
 
                     Cordinate cordinate = new Cordinate();
                     cordinate.setX(x);

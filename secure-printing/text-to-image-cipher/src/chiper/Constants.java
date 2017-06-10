@@ -17,7 +17,7 @@ public class Constants {
 
 //    Deviation on PDF Write
     public static final double DAVIATION_X = 31; //30.44;
-    public static final double DAVIATION_Y = 14;
+    public static final double DAVIATION_Y = 36;
     public static final double BASE_X = 490;
     public static final double BASE_Y = 405;
 
