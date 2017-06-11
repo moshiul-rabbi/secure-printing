@@ -28,7 +28,8 @@ public class OCROperation {
 //        OCR
         Tesseract tesseract = new Tesseract();
         tesseract.setHocr(true);
-        String htmlOutput = tesseract.doOCR(image, new Rectangle(0,0,2457,3483));
+//        String htmlOutput = tesseract.doOCR(image, new Rectangle(0,0,2457,3483));
+        String htmlOutput = tesseract.doOCR(image, new Rectangle(2120,670,270,1300));
         System.out.println(htmlOutput);
 
 //        Co-ordinates from HOCR output

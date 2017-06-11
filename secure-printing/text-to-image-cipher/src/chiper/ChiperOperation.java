@@ -158,12 +158,12 @@ public class ChiperOperation {
             double x = cordinates.get(i).getX();
             double y = cordinates.get(i).getY();
 
-            if(insideBlackHole(x,y))
-                continue;
+            /*if(insideBlackHole(x,y))
+                continue;*/
 
             double[] starPosition = getMinDistanceStar(x,y,stars);
             int radius = (int)Math.round(geometricCalculation.getDistance(x,y,starPosition[0],starPosition[1])) * Constants.COMPRESSOR;
-            System.out.println("//// star(x,y): " + starPosition[0] + "," + starPosition[1] );
+            System.out.println(radius + "//// star(x,y): " + starPosition[0] + "," + starPosition[1] );
 //            verifiedText.append(gridChiper.getCharWithRelativeValue(radius));
 
             text[index[i]] =  gridChiper.getCharWithRelativeValue(radius);
