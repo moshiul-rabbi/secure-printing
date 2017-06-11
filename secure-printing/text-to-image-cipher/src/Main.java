@@ -20,10 +20,12 @@ public class Main {
 
         String src = "D:\\Development\\Temporary\\RemovableFiles\\TestDocument.pdf";
         String dst = "D:\\Development\\Temporary\\RemovableFiles\\TestDocument_good.pdf";
-        String scannedDst = "D:\\Development\\Temporary\\RemovableFiles\\test file\\Sample6\\CCF11017_0002.pdf";
+        String scannedDst = "D:\\Development\\Temporary\\RemovableFiles\\test file\\Sample6\\CCF11017_0002.png";
 
-        String textToChiper = "moshiulhuqrabbi";
-        printerOperation.writeToPdfFromExisting(src, dst, textToChiper);
+        String textToChiper = "rabbi";
+        String cipherText = util.getCipherText(textToChiper);
+        System.out.println("Cipher Text: " + cipherText);
+//        printerOperation.writeToPdfFromExisting(src, dst, cipherText);
 
         try {
             String output = "";
@@ -31,21 +33,30 @@ public class Main {
 //            For testing
 //            char[] index = new char[1];
 //            index[0] = 0;
-            char[] index = new char[7];
-            index[0] = 1;
-            index[1] = 6;
-            index[2] = 3;
-            index[3] = 4;
-            index[4] = 0;
-            index[5] = 2;
-            index[6] = 5;
+            char[] index = new char[16];
+            index[0] = 9;
+            index[1] = 3;
+            index[2] = 11;
+            index[3] = 12;
+            index[4] = 10;
+            index[5] = 1;
+            index[6] = 14;
+            index[7] = 5;
+            index[8] = 0;
+            index[9] = 15;
+            index[10] = 8;
+            index[11] = 7;
+            index[12] = 13;
+            index[13] = 2;
+            index[14] = 4;
+            index[15] = 6;
 
 //            ArrayList<Cordinate> cordinates = printerOperation.readCordinatesFromPDF(dst);
 //            output = new ChiperOperation().getCharacterUsingIndex(cordinates, index);
 
-            /*ArrayList<Cordinate> cordinates = printerOperation.readCordinatesFromScannedPDF(scannedDst,4.15, 116, 3635,
+            ArrayList<Cordinate> cordinates = printerOperation.readCordinatesFromScannedPDF(scannedDst,4.15, 116, 3635,
                     Constants.BASE_X,Constants.BASE_Y);
-            output = new ChiperOperation().getCharacterUsingIndex(cordinates, index);*/
+            output = new ChiperOperation().getCharacterUsingIndex(cordinates, index);
 
             System.out.println("Verified Text: " + output);
         } catch (Exception e) {

@@ -83,4 +83,16 @@ public class Util {
 
         return map;
     }
+
+    public String getCipherText(String text){
+        StringBuffer cipherText = new StringBuffer();
+        for (int i = 0; i < text.length() ; i++) {
+            cipherText.append(String.valueOf((int)text.charAt(i)));
+            if(i < (text.length()-1)){
+                cipherText.append('-');
+            }
+        }
+        return cipherText.toString();
+    }
+    
 }

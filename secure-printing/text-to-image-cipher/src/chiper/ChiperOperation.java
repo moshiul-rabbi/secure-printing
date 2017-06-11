@@ -12,7 +12,7 @@ import java.util.Comparator;
 public class ChiperOperation {
     GeometricCalculation geometricCalculation = new GeometricCalculation();
     Util util = new Util();
-    GridChiper gridChiper = new GridChiper();
+    GridChiperDigit gridChiper = new GridChiperDigit();
 
     public ArrayList<CharacterInfo> getCordinatesFromText(String text) throws Exception {
         int length = text.length();
@@ -64,6 +64,7 @@ public class ChiperOperation {
     public double[] generateMinDistanceXY(double radius, int star, int[][] stars, int compressX, int compressY,
                                           int boundaryRight, int boundaryTop, int boundaryBottom, ArrayList<CharacterInfo> characterInfos) {
         int angleInDegree = util.generateRandomValue(Constants.MAX_ANGLE_IN_DEGREE, Constants.MIN_ANGLE_IN_DEGREE);
+        star = util.generateRandomValue((Constants.NUMBER_OF_STAR - 1), 0);
         double[] xy = geometricCalculation.generateXY(stars[star][0], stars[star][1], radius, angleInDegree);
         for(int i=0; i<Constants.NUMBER_OF_STAR; i++) {
             if (i == star)
@@ -89,11 +90,11 @@ public class ChiperOperation {
 
     public boolean isOverlappedPoint(double x, double y, ArrayList<CharacterInfo> characterInfos){
         for (int i = 0; i <characterInfos.size() ; i++) {
-            double x_boundary_max = characterInfos.get(i).getX()+Constants.OVERLAPPED_BOUNDARY;
-            double x_boundary_min = characterInfos.get(i).getX()-Constants.OVERLAPPED_BOUNDARY;
-            double y_boundary_max = characterInfos.get(i).getY()+Constants.OVERLAPPED_BOUNDARY;
-            double y_boundary_min = characterInfos.get(i).getY()-Constants.OVERLAPPED_BOUNDARY;
-            if(x < x_boundary_max && x > x_boundary_min && y < y_boundary_max && y > y_boundary_min){
+            double x_boundary_max = characterInfos.get(i).getX() + Constants.OVERLAPPED_BOUNDARY;
+            double x_boundary_min = characterInfos.get(i).getX() - Constants.OVERLAPPED_BOUNDARY;
+            double y_boundary_max = characterInfos.get(i).getY() + Constants.OVERLAPPED_BOUNDARY;
+            double y_boundary_min = characterInfos.get(i).getY() - Constants.OVERLAPPED_BOUNDARY;
+            if(y < y_boundary_max && y > y_boundary_min){
                 System.out.println("overlapped point found");
                 return true;
             }
@@ -181,10 +182,11 @@ public class ChiperOperation {
             System.out.println(radius + "//// star(x,y): " + starPosition[0] + "," + starPosition[1] );
 //            verifiedText.append(gridChiper.getCharWithRelativeValue(radius));
 
-            text[index[i]] =  gridChiper.getCharWithRelativeValue(radius);
+                text[index[i]] =  gridChiper.getCharWithRelativeValue(radius);
         }
-//        return verifiedText.toString();
-        return String.valueOf(text);
+
+        String originalText = gridChiper.getOriginalText(String.valueOf(text));
+        return originalText;
     }
 
     public double[] getMinDistanceStar(double x, double y, int[][] stars) {

@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b77e9b7-aaf2-4d72-9935-88e14e1821b2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chiper/GridChiperDigit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/text-to-image-cipher/chiper/ChiperOperation.class" afterPath="$PROJECT_DIR$/out/production/text-to-image-cipher/chiper/ChiperOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../OCRReader/out/production/OCRReader/Main.class" afterPath="$PROJECT_DIR$/../../OCRReader/out/production/OCRReader/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/text-to-image-cipher/Main.class" afterPath="$PROJECT_DIR$/out/production/text-to-image-cipher/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../OCRReader/out/production/OCRReader/com/ocr/reader/OCROperation.class" afterPath="$PROJECT_DIR$/../../OCRReader/out/production/OCRReader/com/ocr/reader/OCROperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../OCRReader/out/artifacts/OCRReader_jar/OCRReader.jar" afterPath="$PROJECT_DIR$/../../OCRReader/out/artifacts/OCRReader_jar/OCRReader.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/text-to-image-cipher/chiper/Util.class" afterPath="$PROJECT_DIR$/out/production/text-to-image-cipher/chiper/Util.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chiper/ChiperOperation.java" afterPath="$PROJECT_DIR$/src/chiper/ChiperOperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chiper/Constants.java" afterPath="$PROJECT_DIR$/src/chiper/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../OCRReader/src/Main.java" afterPath="$PROJECT_DIR$/../../OCRReader/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../OCRReader/src/com/ocr/reader/OCROperation.java" afterPath="$PROJECT_DIR$/../../OCRReader/src/com/ocr/reader/OCROperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chiper/Util.java" afterPath="$PROJECT_DIR$/src/chiper/Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../OCRReader/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../OCRReader/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SampleImage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,9 +44,24 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32346722">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.80203044">
+              <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Util.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chiper/Util.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <folding>
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,8 +70,10 @@
         <entry file="file://$PROJECT_DIR$/src/chiper/ChiperOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="92" column="95" selection-start-line="92" selection-start-column="95" selection-end-line="92" selection-end-column="95" />
-              <folding />
+              <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+              <folding>
+                <element signature="e#586#601#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,12 +88,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridChiper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chiper/GridChiper.java">
+      <file leaf-file-name="GridChiperDigit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chiper/GridChiperDigit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
-              <folding />
+              <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+              <folding>
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+                <element signature="e#714#715#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#1000#1001#0" expanded="true" />
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1104#1113#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,7 +140,7 @@
         <entry file="file://$PROJECT_DIR$/src/PrinterUtil/PrinterOperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#5425#5436#0" expanded="true" />
@@ -131,11 +177,11 @@
         <option value="$PROJECT_DIR$/../OCRReader/out/OCRReader.jar!/com/ocr/reader/OCROperation.class" />
         <option value="$PROJECT_DIR$/src/chiper/GridChiper.java" />
         <option value="$PROJECT_DIR$/src/chiper/ChiperOperation4.java" />
-        <option value="$PROJECT_DIR$/src/chiper/Util.java" />
         <option value="$PROJECT_DIR$/src/chiper/ChiperOperation41.java" />
         <option value="$PROJECT_DIR$/src/chiper/GeometricCalculation.java" />
         <option value="$PROJECT_DIR$/../../OCRReader/out/OCRReader.jar!/com/ocr/reader/OCROperation.class" />
         <option value="$PROJECT_DIR$/src/PrinterUtil/PrinterOperation.java" />
+        <option value="$PROJECT_DIR$/src/chiper/Util.java" />
         <option value="$PROJECT_DIR$/src/chiper/GridChiperDigit.java" />
         <option value="$PROJECT_DIR$/src/chiper/ChiperOperation.java" />
         <option value="$PROJECT_DIR$/src/chiper/Constants.java" />
@@ -186,6 +232,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,9 +307,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -612,11 +658,12 @@
       <workItem from="1497158363972" duration="1452000" />
       <workItem from="1497159839487" duration="4387000" />
       <workItem from="1497165028912" duration="1084000" />
+      <workItem from="1497168691278" duration="3872000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159120000" />
+    <option name="totallyTimeSpent" value="162992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -626,11 +673,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5685039" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21102363" sideWeight="0.3967789" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33543307" sideWeight="0.40409955" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23622048" sideWeight="0.74522763" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21102363" sideWeight="0.60322106" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33543307" sideWeight="0.5959004" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21303074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -702,17 +749,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/PrinterUtil/PrinterOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="32" selection-start-line="117" selection-start-column="32" selection-end-line="117" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5425#5436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chiper/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -752,7 +788,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="e#586#601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -803,7 +841,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#586#601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1038,25 +1078,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chiper/Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="391" column="50" selection-start-line="391" selection-start-column="50" selection-end-line="391" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chiper/CharacterInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,22 +1097,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.29441625">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chiper/GridChiper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.33188722">
+          <caret line="126" column="15" selection-start-line="126" selection-start-column="15" selection-end-line="126" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chiper/CharacterInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chiper/GridChiperDigit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="9" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <folding>
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
+            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#1000#1001#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1104#1113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PrinterUtil/PrinterOperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#5425#5436#0" expanded="true" />
@@ -1095,11 +1153,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chiper/ChiperOperation.java">
+    <entry file="file://$PROJECT_DIR$/src/chiper/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="95" selection-start-line="92" selection-start-column="95" selection-end-line="92" selection-end-column="95" />
-          <folding />
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding>
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1111,10 +1174,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chiper/ChiperOperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+          <folding>
+            <element signature="e#586#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32346722">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.80203044">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
           <folding />
         </state>
       </provider>
