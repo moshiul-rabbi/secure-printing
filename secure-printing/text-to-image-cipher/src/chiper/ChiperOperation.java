@@ -64,7 +64,7 @@ public class ChiperOperation {
     public double[] generateMinDistanceXY(double radius, int star, int[][] stars, int compressX, int compressY,
                                           int boundaryRight, int boundaryTop, int boundaryBottom, ArrayList<CharacterInfo> characterInfos) {
         int angleInDegree = util.generateRandomValue(Constants.MAX_ANGLE_IN_DEGREE, Constants.MIN_ANGLE_IN_DEGREE);
-        star = util.generateRandomValue((Constants.NUMBER_OF_STAR - 1), 0);
+//        star = util.generateRandomValue((Constants.NUMBER_OF_STAR - 1), 0);
         double[] xy = geometricCalculation.generateXY(stars[star][0], stars[star][1], radius, angleInDegree);
         for(int i=0; i<Constants.NUMBER_OF_STAR; i++) {
             if (i == star)
@@ -74,11 +74,15 @@ public class ChiperOperation {
             boolean insideBlackHole = insideBlackHole(xy[0], xy[1]);
             boolean isOverlapped = isOverlappedPoint(xy[0], xy[1], characterInfos);
 
+            if(isOverlapped){
+                star = util.generateRandomValue((Constants.NUMBER_OF_STAR - 1), 0);
+            }
+
             double x_whole = xy[0]+Constants.BASE_X;
             double y_whole = xy[1]+Constants.BASE_Y;
 
-            System.out.println("angle: " + angleInDegree + " distance: " + distance + " radius: " + radius + " Star: " + i + " x_whole: " + x_whole
-                    + " boundaryRight: " + boundaryRight + " y_whole:  " + y_whole + " boundaryBottom " + boundaryBottom + " ,top " + boundaryTop);
+//            System.out.println("angle: " + angleInDegree + " distance: " + distance + " radius: " + radius + " Star: " + i + " x_whole: " + x_whole
+//                    + " boundaryRight: " + boundaryRight + " y_whole:  " + y_whole + " boundaryBottom " + boundaryBottom + " ,top " + boundaryTop);
 
             if (distance < radius || insideBlackHole || isOverlapped || x_whole > boundaryRight ||
                     y_whole < boundaryBottom || y_whole > boundaryTop) {
@@ -94,7 +98,7 @@ public class ChiperOperation {
             double x_boundary_min = characterInfos.get(i).getX() - Constants.OVERLAPPED_BOUNDARY;
             double y_boundary_max = characterInfos.get(i).getY() + Constants.OVERLAPPED_BOUNDARY;
             double y_boundary_min = characterInfos.get(i).getY() - Constants.OVERLAPPED_BOUNDARY;
-            if(y < y_boundary_max && y > y_boundary_min){
+            if(x < x_boundary_max && x > x_boundary_min && y < y_boundary_max && y > y_boundary_min){
                 System.out.println("overlapped point found");
                 return true;
             }
