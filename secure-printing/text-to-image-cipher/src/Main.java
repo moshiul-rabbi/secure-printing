@@ -22,8 +22,8 @@ public class Main {
         String dst = "D:\\Development\\Temporary\\RemovableFiles\\TestDocument_good.pdf";
         String scannedDst = "D:\\Development\\Temporary\\RemovableFiles\\test file\\Sample6\\CCF11017_0002.pdf";
 
-        /*String textToChiper = "basirul";
-        printerOperation.writeToPdfFromExisting(src, dst, textToChiper);*/
+        String textToChiper = "moshiulhuqrabbi";
+        printerOperation.writeToPdfFromExisting(src, dst, textToChiper);
 
         try {
             String output = "";
@@ -43,9 +43,9 @@ public class Main {
 //            ArrayList<Cordinate> cordinates = printerOperation.readCordinatesFromPDF(dst);
 //            output = new ChiperOperation().getCharacterUsingIndex(cordinates, index);
 
-            ArrayList<Cordinate> cordinates = printerOperation.readCordinatesFromScannedPDF(scannedDst,4.15, 116, 3635,
+            /*ArrayList<Cordinate> cordinates = printerOperation.readCordinatesFromScannedPDF(scannedDst,4.15, 116, 3635,
                     Constants.BASE_X,Constants.BASE_Y);
-            output = new ChiperOperation().getCharacterUsingIndex(cordinates, index);
+            output = new ChiperOperation().getCharacterUsingIndex(cordinates, index);*/
 
             System.out.println("Verified Text: " + output);
         } catch (Exception e) {

@@ -42,4 +42,7 @@ public class Constants {
     public static final int BLACKHOLE_01_X = 10;
     public static final int BLACKHOLE_01_Y = 10;
     public static final int BLACKHOLE_01_R = 5;
+
+//    Overlapped Point Boundary
+    public static final int OVERLAPPED_BOUNDARY = 5;
 }

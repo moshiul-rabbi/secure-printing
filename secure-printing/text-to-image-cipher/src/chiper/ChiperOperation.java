@@ -34,7 +34,7 @@ public class ChiperOperation {
 
             int[][] stars = util.loadStars();
             double[] xy = generateMinDistanceXY(radius, randomStar, stars, Constants.COMPRESS_X, Constants.COMPRESS_Y,
-                    Constants.BOUNDARY_RIGHT, Constants.BOUNDARY_Y_TOP, Constants.BOUNDARY_Y_BOTTOM);
+                    Constants.BOUNDARY_RIGHT, Constants.BOUNDARY_Y_TOP, Constants.BOUNDARY_Y_BOTTOM, characterInfos);
 //            System.out.println("(x,y): ("+ xy[0] + "," + xy[1] +")");
 
             CharacterInfo characterInfo = new CharacterInfo();
@@ -62,7 +62,7 @@ public class ChiperOperation {
     }
 
     public double[] generateMinDistanceXY(double radius, int star, int[][] stars, int compressX, int compressY,
-                                          int boundaryRight, int boundaryTop, int boundaryBottom) {
+                                          int boundaryRight, int boundaryTop, int boundaryBottom, ArrayList<CharacterInfo> characterInfos) {
         int angleInDegree = util.generateRandomValue(Constants.MAX_ANGLE_IN_DEGREE, Constants.MIN_ANGLE_IN_DEGREE);
         double[] xy = geometricCalculation.generateXY(stars[star][0], stars[star][1], radius, angleInDegree);
         for(int i=0; i<Constants.NUMBER_OF_STAR; i++) {
@@ -71,6 +71,7 @@ public class ChiperOperation {
 
             double distance = geometricCalculation.getDistance(xy[0], xy[1], stars[i][0], stars[i][1]);
             boolean insideBlackHole = insideBlackHole(xy[0], xy[1]);
+            boolean isOverlapped = isOverlappedPoint(xy[0], xy[1], characterInfos);
 
             double x_whole = xy[0]+Constants.BASE_X;
             double y_whole = xy[1]+Constants.BASE_Y;
@@ -78,12 +79,26 @@ public class ChiperOperation {
             System.out.println("angle: " + angleInDegree + " distance: " + distance + " radius: " + radius + " Star: " + i + " x_whole: " + x_whole
                     + " boundaryRight: " + boundaryRight + " y_whole:  " + y_whole + " boundaryBottom " + boundaryBottom + " ,top " + boundaryTop);
 
-            if (distance < radius || insideBlackHole || x_whole > boundaryRight ||
+            if (distance < radius || insideBlackHole || isOverlapped || x_whole > boundaryRight ||
                     y_whole < boundaryBottom || y_whole > boundaryTop) {
-                return generateMinDistanceXY(radius, star, stars, compressX, compressY, boundaryRight, boundaryTop, boundaryBottom);
+                return generateMinDistanceXY(radius, star, stars, compressX, compressY, boundaryRight, boundaryTop, boundaryBottom, characterInfos);
             }
         }
         return xy;
+    }
+
+    public boolean isOverlappedPoint(double x, double y, ArrayList<CharacterInfo> characterInfos){
+        for (int i = 0; i <characterInfos.size() ; i++) {
+            double x_boundary_max = characterInfos.get(i).getX()+Constants.OVERLAPPED_BOUNDARY;
+            double x_boundary_min = characterInfos.get(i).getX()-Constants.OVERLAPPED_BOUNDARY;
+            double y_boundary_max = characterInfos.get(i).getY()+Constants.OVERLAPPED_BOUNDARY;
+            double y_boundary_min = characterInfos.get(i).getY()-Constants.OVERLAPPED_BOUNDARY;
+            if(x < x_boundary_max && x > x_boundary_min && y < y_boundary_max && y > y_boundary_min){
+                System.out.println("overlapped point found");
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean insideBlackHole(double x, double y){
