@@ -20,9 +20,9 @@ public class Main {
 
         String src = "D:\\Development\\Temporary\\RemovableFiles\\TestDocument.pdf";
         String dst = "D:\\Development\\Temporary\\RemovableFiles\\TestDocument_good.pdf";
-        String scannedDst = "D:\\Development\\Temporary\\RemovableFiles\\test file\\Sample6\\CCF13017_0003.pdf";
+        String scannedDst = "D:\\Development\\Temporary\\RemovableFiles\\test file\\Sample6\\CCF13017_0024.pdf";
 
-        String textToChiper = "Moshiul Huq Rabbi";
+        String textToChiper = "DCP-T700W 1497340211704 A8-1E-84-08-5B-D5";
         StringBuffer cipherText = new StringBuffer(util.getHuffmanEncodedvalue(textToChiper));
 
         System.out.println("Cipher Text: " + cipherText.toString());
@@ -38,17 +38,17 @@ public class Main {
 //            For testing
 //            char[] index = new char[1];
 //            index[0] = 0;
-            String[] index = "14:3:4:22:26:0:29:11:17:16:20:23:13:9:7:6:10:19:5:27:25:18:2:21:1:24:12:28:15:8".split(":");
+            String[] index = ("54:43:56:11:57:47:16:9:21:59:25:58:66:53:26:2:67:32:73:34:0:28:3:17:65:39:70:23:62:45:13:8:72:18:52:61:44:33:24:1:19:64:71:15:20:36:27:51:46:60:42:50:4:31:41:48:55:29:22:7:14:5:49:40:38:30:35:68:10:69:12:63:6:37").split(":");
 
-            ArrayList<Cordinate> cordinates_soft = printerOperation.readCordinatesFromPDF(dst);
-            output = new CipherOperation().getCharacterUsingIndex(cordinates_soft, index);
-            System.out.println("Verified Text: " + output);
+//            ArrayList<Cordinate> cordinates_soft = printerOperation.readCordinatesFromPDF(dst);
+//            output = new CipherOperation().getCharacterUsingIndex(cordinates_soft, index);
 
             ArrayList<Cordinate> cordinates = printerOperation.readCordinatesFromScannedPDF(scannedDst,4.15, 116, 3635,
                     Constants.BASE_X,Constants.BASE_Y);
             output = new CipherOperation().getCharacterUsingIndex(cordinates, index);
 
             System.out.println("Verified Text: " + output);
+
         } catch (Exception e) {
             e.printStackTrace();
         }

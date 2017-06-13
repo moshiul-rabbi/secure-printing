@@ -2,37 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5ac866-f6a2-4558-8b7b-5a3a0202699f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/Encoding.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/EncodingMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/HuffmanEncoder.java" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\PrinterUtil\PrinterOperation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\PrinterUtil\PrinterOperation.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\CharacterInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\ChiperOperation$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\ChiperOperation.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\Constants.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GeometricCalculation.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiper$CharMap.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiper.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiperDigit$CharMap.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiperDigit.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\Util.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/CipherOperation.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/CipherOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/Constants.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/Constants.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/GridCipherDigit.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/GridCipherDigit.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/huffman/HuffmanEncoder.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/huffman/HuffmanEncoder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OCRReader/Main.class" afterPath="$PROJECT_DIR$/out/production/OCRReader/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/Main.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OCRReader/com/ocr/reader/OCROperation.class" afterPath="$PROJECT_DIR$/out/production/OCRReader/com/ocr/reader/OCROperation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OCRReader_jar/OCRReader.jar" afterPath="$PROJECT_DIR$/out/artifacts/OCRReader_jar/OCRReader.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/printer/util/PrinterOperation$1.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/printer/util/PrinterOperation$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/printer/util/PrinterOperation.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/printer/util/PrinterOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/Util.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/com/cipher/Util.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/CipherOperation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/CipherOperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Constants.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Constants.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GridCipherDigit.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GridCipherDigit.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/HuffmanEncoder.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/HuffmanEncoder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/Main.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java" afterPath="$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Util.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\PrinterUtil\PrinterOperation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/printer/util/PrinterOperation.java" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\CharacterInfo.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/CharacterInfo.java" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\ChiperOperation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/CipherOperation.java" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\Constants.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Constants.java" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\GeometricCalculation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GeometricCalculation.java" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\GridChiper.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GridCipher.java" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\GridChiperDigit.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GridCipherDigit.java" />
-      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\Util.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Util.java" />
     </list>
     <ignored path="PixelSearch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OCROperation.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="OCROperation.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.37531486">
+              <caret line="56" column="75" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -154,8 +144,8 @@
         <option value="$PROJECT_DIR$/src/OCROperation.java" />
         <option value="$PROJECT_DIR$/src/Cordinate.java" />
         <option value="$PROJECT_DIR$/src/com/ocr/reader/Cordinate.java" />
-        <option value="$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java" />
       </list>
     </option>
   </component>
@@ -299,10 +289,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="artifacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OCRReader_jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -605,12 +591,12 @@
       <workItem from="1497159840511" duration="3970000" />
       <workItem from="1497165028445" duration="599000" />
       <workItem from="1497168692285" duration="2716000" />
-      <workItem from="1497240449166" duration="7387000" />
+      <workItem from="1497240449166" duration="12512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81080000" />
+    <option name="totallyTimeSpent" value="86205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -620,11 +606,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.4941263" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5207668" sideWeight="0.33847284" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108626" sideWeight="0.33847284" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5207668" sideWeight="0.66152716" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32108626" sideWeight="0.66152716" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2290749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1167,21 +1153,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37531486">
+          <caret line="56" column="75" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>

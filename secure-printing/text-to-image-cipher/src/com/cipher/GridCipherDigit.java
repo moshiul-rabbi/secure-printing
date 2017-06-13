@@ -47,29 +47,26 @@ public class GridCipherDigit {
     private ArrayList<CharMap> charMaps = new ArrayList<CharMap>();
 
     public GridCipherDigit(){
-        CharMap map1 = new CharMap(20,0,39,'0');
+        CharMap map1 = new CharMap(25,0,49,'0');
         charMaps.add(map1);
-        CharMap map2 = new CharMap(60,40,79,'1');
+        CharMap map2 = new CharMap(75,50,99,'1');
         charMaps.add(map2);
-        CharMap map3 = new CharMap(100,80,119,'2');
+        CharMap map3 = new CharMap(125,100,149,'2');
         charMaps.add(map3);
-        CharMap map4 = new CharMap(140,120,159,'3');
+        CharMap map4 = new CharMap(175,150,199,'3');
         charMaps.add(map4);
-        CharMap map5 = new CharMap(180,160,199,'4');
+        CharMap map5 = new CharMap(225,200,249,'4');
         charMaps.add(map5);
-        CharMap map6 = new CharMap(220,200,239,'5');
+        CharMap map6 = new CharMap(275,250,299,'5');
         charMaps.add(map6);
-        CharMap map7 = new CharMap(260,240,279,'6');
+        CharMap map7 = new CharMap(325,300,349,'6');
         charMaps.add(map7);
-        CharMap map8 = new CharMap(300,280,319,'7');
+        CharMap map8 = new CharMap(375,350,399,'7');
         charMaps.add(map8);
-        CharMap map9 = new CharMap(340,320,359,'8');
+        CharMap map9 = new CharMap(425,400,449,'8');
         charMaps.add(map9);
-        CharMap map10 = new CharMap(380,360,399,'9');
+        CharMap map10 = new CharMap(475,450,499,'9');
         charMaps.add(map10);
-        CharMap map11 = new CharMap(420,400,439,'-');
-        charMaps.add(map11);
-
     }
 
     public int getAbsoluteValue(char data){
@@ -80,12 +77,15 @@ public class GridCipherDigit {
         return 0;
     }
 
-    public char getCharWithRelativeValue(int value){
+    public char getCharWithRelativeValue(int value) throws Exception {
         for (int i = 0; i < charMaps.size() ; i++) {
-            if(value >= charMaps.get(i).getMin() && value <= charMaps.get(i).getMax())
+            if(value >= charMaps.get(i).getMin() && value <= charMaps.get(i).getMax()) {
+//                System.out.println("Value: " + value);
                 return charMaps.get(i).getData();
+            }
         }
-        return '0';
+
+        return charMaps.get(charMaps.size()-1).getData();
     }
 
     public String getOriginalText(String value){

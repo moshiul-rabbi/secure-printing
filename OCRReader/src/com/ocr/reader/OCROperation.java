@@ -30,8 +30,8 @@ public class OCROperation {
         tesseract.setHocr(true);
         tesseract.setTessVariable("tessedit_char_whitelist","o");
 //        String htmlOutput = tesseract.doOCR(image, new Rectangle(0,0,2457,3483));
-        String htmlOutput = tesseract.doOCR(image, new Rectangle(2120,670,270,1300));
-        System.out.println(htmlOutput);
+        String htmlOutput = tesseract.doOCR(image, new Rectangle(2120,10,300,3450));
+//        System.out.println(htmlOutput);
 
 //        Co-ordinates from HOCR output
         Document document = Jsoup.parse(htmlOutput);
@@ -41,10 +41,10 @@ public class OCROperation {
         for (Element ocrxWord : document.select(".ocrx_word")) {
             String text = ocrxWord.text();
             String title = ocrxWord.attr("title"); // bbox 250 192 1606 375; x_wconf 70, etc
-            System.out.println("text: " + text + " position: " + title);
+//            System.out.println("text: " + text + " position: " + title);
 
             Cordinate cordinate = getCordinatesFromOcrOutput(text, title, standardDeviation, standardScannedBaseX, standardScannedBaseY, baseX, baseY);
-            System.out.println(cordinate.getX() + " " + cordinate.getY());
+//            System.out.println(cordinate.getX() + " " + cordinate.getY());
             cordinates.add(cordinate);
             count++;
         }

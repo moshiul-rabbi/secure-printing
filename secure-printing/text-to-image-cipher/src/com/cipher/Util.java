@@ -44,7 +44,7 @@ public class Util {
     }
 
     public int[][] loadStars(){
-        int[][] stars = new int[Constants.NUMBER_OF_STAR][6];
+        int[][] stars = new int[Constants.NUMBER_OF_STAR][17];
 
 //        Star 01
         stars[0][0] = Constants.STAR_01_X;
@@ -64,7 +64,39 @@ public class Util {
 //        Star 06
         stars[5][0] = Constants.STAR_06_X;
         stars[5][1] = Constants.STAR_06_Y;
-
+//        Star 07
+        stars[6][0] = Constants.STAR_07_X;
+        stars[6][1] = Constants.STAR_07_Y;
+//        Star 08
+        stars[7][0] = Constants.STAR_08_X;
+        stars[7][1] = Constants.STAR_08_Y;
+//        Star 09
+        stars[8][0] = Constants.STAR_09_X;
+        stars[8][1] = Constants.STAR_09_Y;
+//        Star 10
+        stars[9][0] = Constants.STAR_10_X;
+        stars[9][1] = Constants.STAR_10_Y;
+//        Star 11
+        stars[10][0] = Constants.STAR_11_X;
+        stars[10][1] = Constants.STAR_11_Y;
+//        Star 12
+        stars[11][0] = Constants.STAR_12_X;
+        stars[11][1] = Constants.STAR_12_Y;
+//        Star 13
+        stars[12][0] = Constants.STAR_13_X;
+        stars[12][1] = Constants.STAR_13_Y;
+//        Star 14
+        stars[13][0] = Constants.STAR_14_X;
+        stars[13][1] = Constants.STAR_14_Y;
+//        Star 15
+        stars[14][0] = Constants.STAR_15_X;
+        stars[14][1] = Constants.STAR_15_Y;
+//        Star 16
+        stars[15][0] = Constants.STAR_16_X;
+        stars[15][1] = Constants.STAR_16_Y;
+//        Star 17
+        stars[16][0] = Constants.STAR_17_X;
+        stars[16][1] = Constants.STAR_17_Y;
         return stars;
 
     }
@@ -104,7 +136,7 @@ public class Util {
     public String getHuffmanEncodedvalue(String text){
         try {
             EncodingMap<Character> map = new EncodingMap<Character>(
-                    toCharacterList("abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"));
+                    toCharacterList(Constants.HUFFMAN_MAP_ATTRIBUTE));
             HuffmanEncoder<Character> huffmanEncoder = new HuffmanEncoder<Character>(map);
             String encoded = Encoding.toString(huffmanEncoder.encode(toCharacterList(text)));
             int numberOfStartingZero = 0;
@@ -129,7 +161,7 @@ public class Util {
     public String getHuffmanDecodedvalue(String text){
         try {
             EncodingMap<Character> map = new EncodingMap<Character>(
-                    toCharacterList("abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"));
+                    toCharacterList(Constants.HUFFMAN_MAP_ATTRIBUTE));
             HuffmanEncoder<Character> huffmanEncoder = new HuffmanEncoder<Character>(map);
             StringBuffer dataBuffer = new StringBuffer();
             int count = Integer.parseInt(text.substring(0,1));

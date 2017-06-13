@@ -197,14 +197,14 @@ public class CipherOperation {
 
             double[] starPosition = getMinDistanceStar(x,y,stars);
             int radius = (int)Math.round(geometricCalculation.getDistance(x,y,starPosition[0],starPosition[1])) * Constants.COMPRESSOR;
-            System.out.println("////data: " + gridChiper.getCharWithRelativeValue(radius) +  " radius: " + radius + " point(x,y): " + x + "," + y +
-                    " star(x,y): " + starPosition[0] + "," + starPosition[1] );
+//            System.out.println("////data: " + gridChiper.getCharWithRelativeValue(radius) +  " radius: " + radius + " point(x,y): " + x + "," + y +
+//                    " star(x,y): " + starPosition[0] + "," + starPosition[1] );
 //            verifiedText.append(gridChiper.getCharWithRelativeValue(radius));
 
                 text[Integer.parseInt(index[i])] =  gridChiper.getCharWithRelativeValue(radius);
         }
 
-        System.out.println("encoded text: " + String.valueOf(text));
+//        System.out.println("encoded text: " + String.valueOf(text));
 //        String originalText = gridChiper.getOriginalText(String.valueOf(text));
         String originalText = util.getHuffmanDecodedvalue(String.valueOf(text));
         return originalText;
@@ -220,7 +220,7 @@ public class CipherOperation {
 
         for(int i=1; i<Constants.NUMBER_OF_STAR; i++) {
             double distance = geometricCalculation.getDistance(x, y, stars[i][0], stars[i][1]);
-            System.out.println("(x,y): (" + x + "," + y +") star: (" + stars[i][0] + "," + stars[i][1] + ") distance: " + distance);
+//            System.out.println("(x,y): (" + x + "," + y +") star: (" + stars[i][0] + "," + stars[i][1] + ") distance: " + distance);
             if(distance < min){
                 min = distance;
                 star[0] = stars[i][0];

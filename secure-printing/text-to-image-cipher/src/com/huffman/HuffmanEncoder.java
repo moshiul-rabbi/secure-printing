@@ -31,6 +31,9 @@ public class HuffmanEncoder<K extends Comparable<?>> {
 			if (map.isValid(c)) {
 				out[i] = map.getEncoding(c);
 			}
+			else{
+				System.out.println("invalid: " + c);
+			}
 			i++;
 		}
 		return out;
