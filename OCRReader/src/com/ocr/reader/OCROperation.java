@@ -36,6 +36,7 @@ public class OCROperation {
 //        Co-ordinates from HOCR output
         Document document = Jsoup.parse(htmlOutput);
         ArrayList<Character> index = new ArrayList<Character>();
+        int count = 0;
 
         for (Element ocrxWord : document.select(".ocrx_word")) {
             String text = ocrxWord.text();
@@ -45,8 +46,10 @@ public class OCROperation {
             Cordinate cordinate = getCordinatesFromOcrOutput(text, title, standardDeviation, standardScannedBaseX, standardScannedBaseY, baseX, baseY);
             System.out.println(cordinate.getX() + " " + cordinate.getY());
             cordinates.add(cordinate);
+            count++;
         }
 
+        System.out.println("total count of character: " + count);
         return cordinates;
     }
 

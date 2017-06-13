@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5ac866-f6a2-4558-8b7b-5a3a0202699f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/chiper/GridChiperDigit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/chiper/ChiperOperation.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/chiper/ChiperOperation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/Encoding.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/EncodingMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/huffman/HuffmanEncoder.java" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\PrinterUtil\PrinterOperation$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\PrinterUtil\PrinterOperation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\CharacterInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\ChiperOperation$1.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\ChiperOperation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GeometricCalculation.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiper$CharMap.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiper.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiperDigit$CharMap.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\GridChiperDigit.class" afterPath="" />
+      <change type="DELETED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\out\production\text-to-image-cipher\chiper\Util.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OCRReader/Main.class" afterPath="$PROJECT_DIR$/out/production/OCRReader/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/Main.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OCRReader/com/ocr/reader/OCROperation.class" afterPath="$PROJECT_DIR$/out/production/OCRReader/com/ocr/reader/OCROperation.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/OCRReader_jar/OCRReader.jar" afterPath="$PROJECT_DIR$/out/artifacts/OCRReader_jar/OCRReader.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/chiper/Util.class" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/out/production/text-to-image-cipher/chiper/Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/chiper/ChiperOperation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/chiper/ChiperOperation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/Main.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java" afterPath="$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/chiper/Util.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/chiper/Util.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\PrinterUtil\PrinterOperation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/printer/util/PrinterOperation.java" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\CharacterInfo.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/CharacterInfo.java" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\ChiperOperation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/CipherOperation.java" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\Constants.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Constants.java" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\GeometricCalculation.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GeometricCalculation.java" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\GridChiper.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GridCipher.java" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\GridChiperDigit.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/GridCipherDigit.java" />
+      <change type="MOVED" beforePath="D:\Repository\secure-printing\text-to-image-cipher\src\chiper\Util.java" afterPath="$PROJECT_DIR$/../secure-printing/text-to-image-cipher/src/com/cipher/Util.java" />
     </list>
     <ignored path="PixelSearch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +58,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22516556">
+            <state vertical-scroll-proportion="0.25">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -54,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -66,8 +83,22 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="163" column="36" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="36" />
               <folding>
-                <element signature="e#5162#5163#0" expanded="true" />
-                <element signature="e#5206#5207#0" expanded="true" />
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3098#3099#0" expanded="false" />
+                <element signature="e#3124#3125#0" expanded="false" />
+                <element signature="e#3237#3238#0" expanded="false" />
+                <element signature="e#3266#3267#0" expanded="false" />
+                <element signature="e#3794#3795#0" expanded="false" />
+                <element signature="e#3834#3835#0" expanded="false" />
+                <element signature="e#4025#4026#0" expanded="false" />
+                <element signature="e#4065#4066#0" expanded="false" />
+                <element signature="e#4239#4240#0" expanded="false" />
+                <element signature="e#4289#4290#0" expanded="false" />
+                <element signature="e#4459#4460#0" expanded="false" />
+                <element signature="e#4490#4491#0" expanded="false" />
+                <element signature="e#22910#22911#0" expanded="false" />
+                <element signature="e#22955#22956#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -136,10 +167,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-7" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -164,8 +194,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,7 +308,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -575,28 +605,29 @@
       <workItem from="1497159840511" duration="3970000" />
       <workItem from="1497165028445" duration="599000" />
       <workItem from="1497168692285" duration="2716000" />
+      <workItem from="1497240449166" duration="7387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73693000" />
+    <option name="totallyTimeSpent" value="81080000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2992126" sideWeight="0.4941263" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48031497" sideWeight="0.33089313" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5207668" sideWeight="0.33847284" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48031497" sideWeight="0.6691069" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5207668" sideWeight="0.66152716" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22913617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2290749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -636,6 +667,60 @@
     <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/sourceforge/tess4j/Tesseract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="163" column="36" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="36" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3098#3099#0" expanded="false" />
+            <element signature="e#3124#3125#0" expanded="false" />
+            <element signature="e#3237#3238#0" expanded="false" />
+            <element signature="e#3266#3267#0" expanded="false" />
+            <element signature="e#3794#3795#0" expanded="false" />
+            <element signature="e#3834#3835#0" expanded="false" />
+            <element signature="e#4025#4026#0" expanded="false" />
+            <element signature="e#4065#4066#0" expanded="false" />
+            <element signature="e#4239#4240#0" expanded="false" />
+            <element signature="e#4289#4290#0" expanded="false" />
+            <element signature="e#4459#4460#0" expanded="false" />
+            <element signature="e#4490#4491#0" expanded="false" />
+            <element signature="e#22910#22911#0" expanded="false" />
+            <element signature="e#22955#22956#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/Cordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#184#185#0" expanded="false" />
+            <element signature="e#208#209#0" expanded="false" />
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="false" />
+            <element signature="e#296#297#0" expanded="false" />
+            <element signature="e#320#321#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#411#412#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#478#479#0" expanded="false" />
+            <element signature="e#510#511#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="31" column="85" selection-start-line="31" selection-start-column="85" selection-end-line="31" selection-end-column="85" />
           <folding />
         </state>
@@ -672,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/GeneratePdf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -705,13 +783,6 @@
             <element signature="e#478#479#0" expanded="false" />
             <element signature="e#510#511#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/GeneratePdf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1071,20 +1142,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/GeneratePdf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/sourceforge/tess4j/Tesseract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="163" column="36" selection-start-line="163" selection-start-column="13" selection-end-line="163" selection-end-column="36" />
           <folding>
-            <element signature="e#5162#5163#0" expanded="true" />
-            <element signature="e#5206#5207#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3098#3099#0" expanded="false" />
+            <element signature="e#3124#3125#0" expanded="false" />
+            <element signature="e#3237#3238#0" expanded="false" />
+            <element signature="e#3266#3267#0" expanded="false" />
+            <element signature="e#3794#3795#0" expanded="false" />
+            <element signature="e#3834#3835#0" expanded="false" />
+            <element signature="e#4025#4026#0" expanded="false" />
+            <element signature="e#4065#4066#0" expanded="false" />
+            <element signature="e#4239#4240#0" expanded="false" />
+            <element signature="e#4289#4290#0" expanded="false" />
+            <element signature="e#4459#4460#0" expanded="false" />
+            <element signature="e#4490#4491#0" expanded="false" />
+            <element signature="e#22910#22911#0" expanded="false" />
+            <element signature="e#22955#22956#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1092,14 +1170,14 @@
     <entry file="file://$PROJECT_DIR$/src/com/ocr/reader/OCROperation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22516556">
+        <state vertical-scroll-proportion="0.25">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
